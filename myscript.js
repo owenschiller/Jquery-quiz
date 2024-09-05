@@ -1,9 +1,14 @@
 $(document).ready(function() {
-	$("#imagetoggler").click(function(){
-		$("img").toggle();
+	
+	
+	$("#b1").click(function(){
+		$(".show").show();
 	});
-	$("h1").click(function() {
-		$("p").addClass("bright");
-		$("img").addClass("border");
+	$(".right").click(function(){
+		$(".correct").toggle();
 	});
+	$(".wrong").click(function(){
+		$(".incorrect").toggle();
+	});
+	
 });
