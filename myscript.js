@@ -10,10 +10,10 @@ $(document).ready(function() {
 	$(".wrong").click(function(){
 		$(".incorrect").toggle();
 	});
-	$(".right").click(function(){
+	$(".right1").click(function(){
 		$(".correct1").toggle();
 	});
-	$(".wrong").click(function(){
+	$(".wrong1").click(function(){
 		$(".incorrect1").toggle();
 	});
 	
