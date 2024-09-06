@@ -37,6 +37,12 @@ p{
 .incorrect{
 	color:red;
 }
+.correct1{
+	color: limegreen;
+}
+.incorrect2{
+	color:red;
+}
 .answers{
 	display: none;
 }
