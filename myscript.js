@@ -16,5 +16,11 @@ $(document).ready(function() {
 	$(".wrong1").click(function(){
 		$(".incorrect1").toggle();
 	});
+	$(".right2").click(function(){
+		$(".correct2").toggle();
+	});
+	$(".wrong2").click(function(){
+		$(".incorrect2").toggle();
+	});
 	
 });
