@@ -10,5 +10,11 @@ $(document).ready(function() {
 	$(".wrong").click(function(){
 		$(".incorrect").toggle();
 	});
+	$(".right").click(function(){
+		$(".correct1").toggle();
+	});
+	$(".wrong").click(function(){
+		$(".incorrect1").toggle();
+	});
 	
 });
