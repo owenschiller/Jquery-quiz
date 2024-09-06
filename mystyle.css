@@ -43,6 +43,12 @@ p{
 .incorrect1{
 	color:red;
 }
+.correct2{
+	color: limegreen;
+}
+.incorrect2{
+	color:red;
+}
 .answers{
 	display: none;
 }
